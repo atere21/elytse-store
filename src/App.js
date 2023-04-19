@@ -4,7 +4,9 @@ import Youtube from "./components/Youtube";
 import Conversation from "./components/Conversation";
 import Virtual from "./components/Virtual";
 import Swap from "./components/Swap";
-import Questions from "./components/Questions";
+import Faq from "./components/FAQ'S/Faq";
+import Team from "./components/Team/Team";
+
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Conversation/>
         <Virtual/>
         <Swap/>
-        <Questions/>
+        
+        <Faq/>
+        <Team/>
     </div>
   );
 }
