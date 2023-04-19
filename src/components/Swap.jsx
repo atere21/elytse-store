@@ -22,7 +22,7 @@ const Swap = () => {
 
           <div>
             <button className="text-[#004DE6] hover:bg-[#f9d108] w-[200px] rounded-md font-medium md:mx-0 mx-auto my-6 py-3 bg-[#e7c624]">
-            Get Started
+              Get Started
             </button>
           </div>
         </div>
