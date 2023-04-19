@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div 
     data-aos='fade-right'
-    className='w-full bg-white py-16 px-4'>
+    className='w-full  py-16 px-4'>
 <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
     <div>
                 
@@ -28,7 +28,7 @@ const Hero = () => {
                 Discover a whole new way to experience fashion.
                 </p>
 
-                <div className='flex'>
+                <div className='flex bg-white'>
                 <input className='bg-white  border-none  rounded-md text-blue-800 font-medium md:mx-0 mx-auto my-6 py-3 p-3 w-full ' type='email' placeholder='Enter your best email'/>
                 <button className='text-[#004DE6] w-[200px] hover:bg-[#f9d108] rounded-md font-medium md:mx-0 mx-auto my-6 py-3 ml-6 px-6 bg-[#e7c624]'>Submit</button>
                 </div>
