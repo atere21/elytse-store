@@ -7,6 +7,7 @@ import sell from "../assets/page5.png";
 import Real from "../assets/page10.png";
 import AI from "../assets/page9.png";
 import Motivation from "../assets/page11.png";
+import Satisfaction from "../assets/page12.png";
 
 export const industry = [
 	{
@@ -61,5 +62,11 @@ export const industry = [
 		title: "Motivation & Recognition program",
 		body: "Elytse introduces features such as points systems, loyalty programs, referral incentives, quizzes, scavenger hunts, and leaderboards. These features allow users to engage with the platform in a fun and interactive way. Users can earn badges, rewards such as discounts, and exclusive access to fashion items by participating in various activities on the platform. ",
 		img: Motivation,
+	},
+
+	{
+		title: "Satisfaction & Experience Algorithm",
+		body: "Our advanced algorithms use user feedback to generate verification and scores for service and product providers on our platform. These ratings help users make informed decisions by showcasing the quality of providers' products and services. With this system, we incentivize providers to offer better quality products and services and continuously improve the user experience. ",
+		img: Satisfaction,
 	},
 ];

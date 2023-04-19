@@ -8,7 +8,7 @@ const ServicesCard = ({ card }) => {
 		AOS.init({ duration: 2000 });
 	}, []);
 	return (
-		<div className='text-blue-800 w-[100vw] h-full flex  flex-col  bg-white  items-center md:py-2 '>
+		<div className='text-blue-800 w-full h-full flex  flex-col  bg-white  items-center md:py-2 text-xl'>
 			<p className='sm:hidden block text-l text-[#91b3fa] font-bold pb-1 pt-1 mb-2 border-b-4 sm:border-b-0 text-center w-[100px] border-blue-900 m-auto'>
 				{card.title}
 			</p>
