@@ -1,5 +1,5 @@
 import React from "react";
-import { teamsCard  } from "../../utils/teams";
+import { team  } from "../../utils/teams";
 import TeamCard from "./TeamCard";
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -17,7 +17,7 @@ const TeamFile = () => {
                  
                 <h2 className='font-bold text-2xl md:text-4xl text-blue-700'>About the Team</h2>
 				<div className='flex flex-col sm:flex-row gap-[3rem] flex-wrap justify-center mt-[5rem] px-[1rem] '>
-					{teamsCard.map((card, id) => {
+					{team.map((card, id) => {
 						return <TeamCard card={card} key={id} />;
 					})}
 				</div>
