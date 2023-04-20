@@ -2,7 +2,7 @@ import Richy from "../assets/Richy.jpg";
 import Motun from "../assets/Motun.jpg";
 import Tosin from "../assets/Tosin.jpg";
 
-export const teams = [
+export const team = [
 	{
 		title: "Kiara Austen Brooknew Ltd.",
 		body: "Meaningful insights and maximum impact. Wendy made us data converts!",
