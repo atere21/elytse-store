@@ -1,8 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
-
 import Youtube from "../components/Youtube";
-
 import Faq from "../components/FAQ'S/Faq";
 import Team from "../components/Team/Team";
 import Services from "../components/Services/MyServices";
