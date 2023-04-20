@@ -7,7 +7,7 @@ const TeamCard = ({ card }) => {
       <div className=" relative bg-[#F6F9FF] text-slate-900  p-5 flex justify-center items-center rounded-lg hover:scale-105 duration-300   sm:w-[350px] w-[300px] h-[300px] py-5  cursor-pointer drop-shadow-xl">
         <div className="w-[150px] h-[150px] pt-8  absolute top-[-5%] items-center justify-center bg-[#005AE1] rounded-[50%]">
           <img
-            className="w-full h-full mx-auto my-4 px-4 object-cover rounded-md"
+            className="w-full h-full mx-auto my-[-2rem] px-4 object-cover rounded-md"
             src={card.icon}
             alt="/"
           />

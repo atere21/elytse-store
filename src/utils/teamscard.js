@@ -1,66 +1,68 @@
-import virtual from "../assets/page4.png";
+import Richy from "../assets/Richy.jpg";
+import Motun from "../assets/Motun.jpg";
+import Tosin from "../assets/Tosin.jpg";
 
 export const teamsCard = [
 	{
 		title: "Kiara Austen Brooknew Ltd.",
 		body: "Meaningful insights and maximum impact. Wendy made us data converts!",
-		// icon: "Motun",
-        icon: virtual,
+		 icon: Motun,
+        
 	},
 	{
 		title: "Gabriel Shelby New Bockford",
 		body: "Our startup business wouldn't be where it is without Wendy's expertise.",
-		icon:  virtual,
+		icon:  Richy,
 	},
 	{
 		title: "Elliot Sterling Willifred Industries",
 		body: "over the years, we have built Stable Real Estate businesses.",
-		// icon: Ebuka,
-        icon:  virtual,
+		
+        icon:  Tosin,
 	},
 	{
 		title: "Business",
 		body: "The numbers speak for themselves. Wendy is an amazing analyst!",
-		// icon: Franklin,
-        icon:  virtual,
+		
+        icon:  Tosin,
 	},
 	{
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Adeyera,
-        icon:  virtual,
+        icon:  Tosin,
 	},
 
     {
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Dolapo,
-        icon:  virtual,
+        icon:  Tosin,
 	},
     {
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Tema,
-        icon:  virtual,
+        icon:  Tosin,
 	},
     {
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Armstrong,
-        icon: virtual,
+        icon: Tosin,
 	},
 
     {
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Frank,
-        icon:  virtual,
+        icon:  Tosin,
 	},
 
     {
 		title: "Finance",
 		body: "over the years, we have built Stable Real Estate businesses.",
 		// icon: Richard,
-        icon:  virtual,
+        icon:  Tosin,
 	},
 ];
