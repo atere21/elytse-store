@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const Youtube = () => {
   return (
-    <div>
+    <div className='h-full w-full p-8'>
         <Container>
       <div className="ratio ratio-16x9">
             <iframe src="https://www.youtube.com/embed/EhHjXzu98JA"
