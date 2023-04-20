@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
     <div>
                 
-                <h1 className='md:text-4xl sm:text-5xl text-2xl font-bold py-2 text-[#004DE6] p-2'>
+                <h1 className='md:text-4xl sm:text-5xl text-2xl font-bold py-2 text-[#004DE6] p-2 m'>
                 "Social Fashion Marketplace"
                 </h1>
                 <p className='text-[#004DE6] md:text-xl p-2'>
