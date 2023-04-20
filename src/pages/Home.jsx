@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Youtube from "../components/Youtube";
 
 import Faq from "../components/FAQ'S/Faq";
-// import Team from "../components/Team/Team";
+import Team from "../components/Team/Team";
 import Services from "../components/Services/MyServices";
 import Hero from '../components/Hero';
 
@@ -16,7 +16,7 @@ const Home = () => {
         <Youtube/>
         <Services/>
         <Faq/>
-        {/* <Team/> */}
+        <Team/>
          </div>
 
   )
