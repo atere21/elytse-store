@@ -11,7 +11,7 @@ const Hero = () => {
 	}, []);
  
   return (
-    <div 
+    <div name='Home'
     data-aos='fade-right'
     className='w-full h-full md:h-screen md:m-8 py-10 px-4'>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>

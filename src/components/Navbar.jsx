@@ -54,28 +54,28 @@ const Navbar = () => {
         <img className="w-40 h-20" src={logo} alt="/" />
         <ul className="p-4  uppercase">
           <li className="p-4 border-b border-gray-600 ">
-          <Link activeClass="active" to="Home" smooth={true} duration={500} >
+          <Link onClick={handleNav} activeClass="active" to="Home" smooth={true} duration={500} >
             Home
             </Link>
             </li>
           <li className="p-4 border-b border-gray-600 ">
-          <Link activeClass="active" to="Solution" smooth={true} duration={500} >
+          <Link onClick={handleNav} activeClass="active" to="Solution" smooth={true} duration={500} >
             Solution
             </Link>
              </li>
           <li className="p-4 border-b border-gray-600 ">
-          <Link activeClass="active" to="About" smooth={true} duration={500} >
+          <Link onClick={handleNav} activeClass="active" to="About" smooth={true} duration={500} >
             About
             </Link>
             </li>
            
           <li className="p-4 border-b border-gray-600 ">Community
-          <Link activeClass="active" to="home" smooth={true} duration={500} >
+          <Link onClick={handleNav} activeClass="active" to="home" smooth={true} duration={500} >
           </Link>
           </li>
 
           <li className="p-4 border-b border-gray-600 ">
-           <Link activeClass="active" to="Blog" smooth={true} duration={500}>
+           <Link onClick={handleNav} activeClass="active" to="Blog" smooth={true} duration={500}>
             Blog
             </Link>
             </li>
