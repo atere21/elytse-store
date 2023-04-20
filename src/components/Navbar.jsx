@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo.png";
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -13,11 +14,32 @@ const Navbar = () => {
     <div className="text-[#004DE6] flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
       <img className="w-40 h-20" src={logo} alt="" />
       <ul className="md:flex hidden  cursor-pointer">
-        <li className="p-4 hover:text-blue-800">Home</li>
-        <li className="p-4 hover:text-blue-800">Solution</li>
-        <li className="p-4 hover:text-blue-800">About</li>
-        <li className="p-4 hover:text-blue-800">Community</li>
-        <li className="p-4 hover:text-blue-800">Blog</li>
+        <li className="p-4 hover:text-blue-800">
+        <Link activeClass="active" to="Home" smooth={true} duration={500} >
+          Home
+          </Link>
+          </li>
+        <li className="p-4 hover:text-blue-800">
+          <Link activeClass="active" to="Solution" smooth={true} duration={500} >
+          Solution
+          </Link></li>
+        <li className="p-4 hover:text-blue-800">
+        <Link activeClass="active" to="About" smooth={true} duration={500} >
+          About
+          </Link>
+          </li>
+        <li className="p-4 hover:text-blue-800">
+        <Link activeClass="active" to="Community" smooth={true} duration={500} >
+          Community
+          </Link>
+          </li>
+
+        <li className="p-4 hover:text-blue-800">
+          Blog
+        <Link activeClass="active" to="Blog" smooth={true} duration={500} >
+        </Link>
+        </li>
+
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -31,11 +53,32 @@ const Navbar = () => {
       >
         <img className="w-40 h-20" src={logo} alt="/" />
         <ul className="p-4  uppercase">
-          <li className="p-4 border-b border-gray-600 ">Home</li>
-          <li className="p-4 border-b border-gray-600 ">Solution </li>
-          <li className="p-4 border-b border-gray-600 ">About</li>
-          <li className="p-4 border-b border-gray-600 ">Community</li>
-          <li className="p-4 border-b border-gray-600 ">Blog</li>
+          <li className="p-4 border-b border-gray-600 ">
+          <Link activeClass="active" to="Home" smooth={true} duration={500} >
+            Home
+            </Link>
+            </li>
+          <li className="p-4 border-b border-gray-600 ">
+          <Link activeClass="active" to="Solution" smooth={true} duration={500} >
+            Solution
+            </Link>
+             </li>
+          <li className="p-4 border-b border-gray-600 ">
+          <Link activeClass="active" to="About" smooth={true} duration={500} >
+            About
+            </Link>
+            </li>
+           
+          <li className="p-4 border-b border-gray-600 ">Community
+          <Link activeClass="active" to="home" smooth={true} duration={500} >
+          </Link>
+          </li>
+
+          <li className="p-4 border-b border-gray-600 ">
+           <Link activeClass="active" to="Blog" smooth={true} duration={500}>
+            Blog
+            </Link>
+            </li>
         </ul>
       </div>
     </div>
