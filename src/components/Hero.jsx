@@ -38,7 +38,7 @@ const Hero = () => {
         
             <img
             data-aos='zoom-in'
-            className='w-full mx-auto my-4'
+            className='w-full h-full mx-auto my-4'
              src={img} alt='/'/>
             </div>
             </div>

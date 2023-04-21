@@ -11,14 +11,14 @@ export default function Footer(){
 	}, []);
     return(
         <footer>
-            <div data-aos='fade-right' className="text-blue-800  max-w-[1240px] mx-auto px-16 mt-5 border-t-4 border-gray-100 py-10">
-                <p>Join the revolution of social fashion today - Sign up with Elytse and let's discover trends together, experience the future of personalized style and unlock a world of fashion possibilities!</p>
-                <div className='flex  max-w-[80rem] justify-center py-6  '>
-                    <div>
-                        <input className='bg-[#e6d7ff] border-[#d2c7e4] border-y-2 border-x-2 rounded-full text-[#004de6f6] font-medium md: mx-auto my-6 py-2 p-2 w-full ' type='email' placeholder='Enter your best email'/>
-                        <button className='text-[#004DE6] w-[150px] hover:bg-[#f9d108] rounded-full font-medium md:mx-0 mx-auto my-4 py-2  px-4 bg-[#e7c624]'>Submit</button>
+            <div data-aos='fade-right' className="text-blue-800 w-full h-full mx-auto mt-5 border-t-4 border-gray-100 py-10 p-4">
+                <p className="text-xl p-8">Join the revolution of social fashion today - Sign up with Elytse and let's discover trends together, experience the future of personalized style and unlock a world of fashion possibilities!</p>
+                <div className='flex items-center justify-center py-6  '>
+                    <div className="w-[50%] mx-auto p-2">
+                        <input className=' w-[200px] bg-[#e6d7ff]  border-[#d2c7e4] border-y-2 border-x-2 rounded-full text-[#004de6f6] font-medium md:mx-auto my-6 p-2 ' type='email' placeholder='Enter your best email'/>
+                        <button className='text-[#004DE6] w-[150px] hover:bg-[#f9d108] rounded-full font-medium md:mx-0 mx-auto  py-2  bg-[#e7c624]'>Submit</button>
                     </div>
-                    <img src={img} alt=""  className="w-[15rem] "/>
+                    <img src={img} alt=""  className="w-[40%] mr-[-6] "/>
                 </div>
                 <FooterIcon />
             </div>

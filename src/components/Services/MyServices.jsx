@@ -20,7 +20,7 @@ const MyServices = () => {
 	}, []);
 
 	return (
-		<div name='Solution' className=' my-12'>
+		<div name='Solution' className=' my-12 '>
 			<h3
 				data-aos='fade-down'
 				className='sm:w-[300px] w-full text-[2rem] md:text-[2.3rem] text-yellow-600 font-bold sm:border-b-4 border-b-0  border-blue-900 pb-[0.5rem] sm:ml-[4rem] ml-1 mt-2 sm:text-left text-center m-auto p-4'>
@@ -68,8 +68,8 @@ const ServiceCardContainer = () => {
 						src={arrowleft}
 						onClick={() => slideBack(swiperRef.activeIndex)}
 						className=' z-40'
-						width={60}
-						height={60}
+						width={50}
+						height={50}
 						alt='arrowright'
 					/>
 
@@ -77,8 +77,8 @@ const ServiceCardContainer = () => {
 						src={arrowright}
 						onClick={() => slideFront(swiperRef.activeIndex)}
 						className=' z-40'
-						width={55}
-						height={55}
+						width={45}
+						height={45}
 						alt='arrowright'
 					/>
 				</div>

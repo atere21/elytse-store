@@ -1,29 +1,30 @@
 import Richy from "../assets/Richy.jpg";
 import Motun from "../assets/Motun.jpg";
 import Tosin from "../assets/Tosin.jpg";
+import Adeyera from "../assets/Adeyera.jpg";
 
 export const teams = [
 	{
-		title: "Kiara Austen  Ltd.",
+		title: "Motun Marteen CEO, Project Manager ",
 		
 		 icon: Motun,
         
 	},
 	{
-		title: "Gabriel Shelby  Bockford",
+		title: "Oluwatosin Atere COO, Frontend Engineer",
 		
-		icon:  Richy,
+		icon:  Tosin,
 	},
 	{
-		title: "Elliot Sterling Industries",
+		title: "Ehindero Richard, Backend Developer",
 		
 		
-        icon:  Tosin,
+        icon:  Richy,
 	},
 	{
-		title: "Business",
+		title: "Adeyera Asimolowo, Marketing Manager",
 		
-        icon:  Tosin,
+        icon:  Adeyera,
 	},
 	{
 		title: "Finance",
