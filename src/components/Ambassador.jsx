@@ -10,7 +10,7 @@ export default function Ambassador(){
 		AOS.init({ duration: 2000 });
 	}, []);
     return(
-        <div data-aos='fade-right' className=" max-w-[1240px] mx-auto px-16 my-6 grid md:grid-cols-2 ">
+        <div data-aos='fade-right' className=" w-full mx-auto px-16 my-6 grid md:grid-cols-2 py-16">
             <div className=" text-[#1b50bb]">
                 <div className="bg-[#f9d108] py-2 mb-2 text-center">
                     <p>"Discovering the future of fashion: An ode to Elytse"</p>
@@ -24,9 +24,9 @@ export default function Ambassador(){
                     <span className="text-end px-0 text-[12px]">Motun Marteen, CEO, Elytse</span>
                 </div>
             </div>
-            <div className="ml-4 text-white">
-                <div className="bg-[#004DE6] mt-16 py-3 px-3 ">
-                    <h1 className="md:text-4xl text-6xl w-[6rem] ">Become An Elytse's Ambassador</h1>
+            <div className="md:ml-4 text-white">
+                <div className="bg-[#004DE6] w-full mt-10 md:mt-16 py-[2.3rem] px-3   ">
+                    <h1 className="text-4xl md:text-6xl w-full ">Become <br/>An Elytse's <br/> Ambassador</h1>
                     <p className="">Are you a community builder, Influencer, Fashion Journalist, Blogger, Fashion Model, Photographer, Marketer interested in leading fashion-conscious communities</p>
                 </div>
                 <div className=" bg-[#004DE6] mt-2 py-3 text-center text-l">
