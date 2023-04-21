@@ -1,5 +1,5 @@
 import React from "react";
-import { teamsCard  } from "../../utils/teamsCard";
+import { teamsCard  } from "../../utils/teamscard";
 import TeamCard from "./TeamCard";
 import AOS from "aos";
 import 'aos/dist/aos.css';

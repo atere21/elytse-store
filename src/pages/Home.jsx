@@ -5,6 +5,9 @@ import Faq from "../components/FAQ'S/Faq";
 import Team from "../components/Team/Team";
 import Services from "../components/Services/MyServices";
 import Hero from '../components/Hero';
+import Vision from "../components/Vision";
+import Ambassador from '../components/Ambassador';
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -13,8 +16,11 @@ const Home = () => {
         <Hero/>
         <Youtube/>
         <Services/>
+        <Vision/>
         <Faq/>
+        <Ambassador/>
         <Team/>
+        <Footer/>
          </div>
 
   )
