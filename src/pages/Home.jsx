@@ -7,7 +7,8 @@ import Services from "../components/Services/MyServices";
 import Hero from '../components/Hero';
 import Vision from "../components/Vision";
 import Ambassador from '../components/Ambassador';
-import Footer from "../components/Footer"
+import Footer from "../components/Footers/Footer";
+import Revolution from '../components/Revolution';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <Faq/>
         <Ambassador/>
         <Team/>
+        <Revolution />
         <Footer/>
          </div>
 
