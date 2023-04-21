@@ -11,7 +11,7 @@ const TeamFile = () => {
 	}, []);
 
 	return (
-		<div name='About' className='w-full h-full bg-[white]'>
+		<div name='About' className='w-full h-full bg-[white] teamStyle '>
 			<div data-aos='fade-right'
             className='justify-center items-center flex py-8 flex-col'>
                  
