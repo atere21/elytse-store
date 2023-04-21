@@ -5,7 +5,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-const Team = () => {
+const TeamFile = () => {
   useEffect(() => {
 		AOS.init({ duration: 2000 });
 	}, []);
@@ -35,4 +35,4 @@ const Team = () => {
 	);
 };
 
-export default Team;
+export default TeamFile;
