@@ -27,13 +27,13 @@ export const ExpendableColumn = ({question, isOpen, toggle}) => {
           <span
            style={{transform: 'rotate(${isOpen ? 180 : 0}deg)', transition: "all 0.2s",
           }}
-           ><button><BsChevronCompactDown className='text-xl text-white font-bold  '/></button></span>
+           ><button><BsChevronCompactDown className='text-xl text-blue-800 font-bold  '/></button></span>
 
     </div>
     )
 }
 export const TextSection = ({text}) => {
-    return <div className='text-container text-yellow-800  p-4 mx-2'>
+    return <div className='text-container text-yellow-800  mx-8'>
       <div>{text}</div>
     </div>
 }
