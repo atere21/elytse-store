@@ -17,12 +17,11 @@ const TeamCard = ({ card }) => {
             {card.title}
           </p>
           <p className="items-center justify-center flex text-[0.95rem] p-8 w-60 ml-[-6.3rem]">
-           {card.position}
+            {card.position}
           </p>
           <span>
-              <AiFillLinkedin className=" bg-white w-[20px] h-[20px] rounded-md gap-[12] ml-16 mt-[-2rem] " />
-            
-            </span>
+            <AiFillLinkedin className=" bg-white w-[20px] h-[20px] rounded-md gap-[12] ml-16 mt-[-2rem] " />
+          </span>
         </div>
       </div>
     </>
