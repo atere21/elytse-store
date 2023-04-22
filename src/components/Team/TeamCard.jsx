@@ -12,7 +12,7 @@ const TeamCard = ({ card }) => {
             alt="/"
           />
         </div>
-        <div className="text-blue-800  mt-[8rem] grid grid-cols-2 mx-12">
+        <div className="text-blue-700  mt-[8rem] grid grid-cols-2 mx-12">
           <p className="text-center text-yellow-600 font-bold z-40 w-40">
             {card.title}
           </p>
