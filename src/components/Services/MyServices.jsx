@@ -63,7 +63,7 @@ const ServiceCardContainer = () => {
 					);
 				})}
 
-				<div className='flex gap-x-10 md:ml-[4rem] ml-[6rem]  items-center  sm:flex'>
+				<div className='flex gap-x-10 md:ml-[5rem] ml-[3.8rem]  items-center  sm:flex'>
 					<img
 						src={arrowleft}
 						onClick={() => slideBack(swiperRef.activeIndex)}

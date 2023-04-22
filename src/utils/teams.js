@@ -8,7 +8,7 @@ import Armstrong from "../assets/Armstrong.JPG";
 export const teams = [
 	{
 		title: "Motun Marteen ",
-		position:"Founder, Project Manager",
+		position:"Founder, Product Manager",
 		 icon: Motun,
         
 	},
@@ -35,7 +35,7 @@ export const teams = [
 
     {
 		title: "Armstrong",
-		position:"Research Manager",
+		position:"Research and Development Manager",
         icon:  Armstrong,
 	},
    
