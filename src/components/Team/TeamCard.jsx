@@ -4,7 +4,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 const TeamCard = ({ card }) => {
   return (
     <>
-      <div className=" relative bg-[#F6F9FF] text-slate-900 m-2   flex justify-center items-center rounded-lg hover:scale-105 duration-300   sm:w-[250px] w-[200px] h-[220px] py-5  cursor-pointer drop-shadow-xl">
+      <div className=" relative bg-[#F6F9FF] text-slate-900 m-2   flex justify-center items-center rounded-lg hover:scale-105 duration-300   sm:w-[250px] w-[250px] h-[270px] py-5  cursor-pointer drop-shadow-xl">
         <div className="w-[150px] h-[150px] pt-8  absolute top-[-5%] items-center justify-center rounded-[50%] ">
           <img
             className="w-full h-full mx-auto my-[-2rem] px-4 object-cover  rounded-[50%] mt-[-4rem]"

@@ -11,7 +11,7 @@ export default function Vision() {
     <div
       name="About"
       data-aos="fade-right"
-      className=" w-full h-full md:py-8  py-[-8rem] grid md:grid-cols-2 mx-auto text-[#004DE6] p-10"
+      className=" w-full h-full md:py-8  py-[-8rem] grid md:grid-cols-2 text-[#004DE6] p-10"
     >
       <div className="md:py-10 md:p-10 p-2">
         <h2 className="mx-2">Our Mission</h2>

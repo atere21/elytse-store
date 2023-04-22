@@ -38,30 +38,6 @@ export const teams = [
 		
         icon:  Tosin,
 	},
-    {
-		title: "Finance",
-		
-		// icon: Tema,
-        icon:  Tosin,
-	},
-    {
-		title: "Finance",
-		
-		// icon: Armstrong,
-        icon: Tosin,
-	},
+   
 
-    {
-		title: "Finance",
-		
-		// icon: Frank,
-        icon:  Tosin,
-	},
-
-    {
-		title: "Finance",
-		
-		// icon: Richard,
-        icon:  Tosin,
-	},
 ];
