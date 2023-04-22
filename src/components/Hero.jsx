@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
     <div>
                 
-                <h1 className='md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 m'>
+                <h1 className='md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 w-[50%]'>
                 "Social Fashion Marketplace"
                 </h1>
                 <p className='text-[#004DE6] md:text-xl p-2'>
@@ -38,7 +38,7 @@ const Hero = () => {
         
             <img
             data-aos='zoom-in'
-            className='w-full h-full mx-auto my-4'
+            className='w-full h-full mx-auto my-4 object-fit'
              src={img} alt='/'/>
             </div>
             </div>
