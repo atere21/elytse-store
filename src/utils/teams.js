@@ -2,41 +2,41 @@ import Richy from "../assets/Richy.jpg";
 import Motun from "../assets/Motun.jpg";
 import Tosin from "../assets/Tosin.jpg";
 import Adeyera from "../assets/Adeyera.jpg";
+import Dolapo from "../assets/Dolapo.jpg";
+import Armstrong from "../assets/Armstrong.JPG";
 
 export const teams = [
 	{
-		title: "Motun Marteen CEO, Project Manager ",
-		
+		title: "Motun Marteen ",
+		position:"Founder, Project Manager",
 		 icon: Motun,
         
 	},
 	{
-		title: "Oluwatosin Atere COO, Frontend Engineer",
-		
+		title: "Oluwatosin Atere",
+		position: " Co-Founder, Frontend Engineer",
 		icon:  Tosin,
 	},
 	{
-		title: "Ehindero Richard, Backend Developer",
-		
-		
+		title: "Ehindero Richard",
+	    position:"Software Engineer",
         icon:  Richy,
 	},
 	{
-		title: "Adeyera Asimolowo, Marketing Manager",
-		
+		title: "Adeyera Asimolowo",
+		position:"Marketing Manager",
         icon:  Adeyera,
 	},
 	{
-		title: "Finance",
-		
-		// icon: Adeyera,
-        icon:  Tosin,
+		title: "Dolapo Adegoju",
+		position:"Backend Developer",
+        icon:  Dolapo,
 	},
 
     {
-		title: "Finance",
-		
-        icon:  Tosin,
+		title: "Armstrong",
+		position:"Research Manager",
+        icon:  Armstrong,
 	},
    
 

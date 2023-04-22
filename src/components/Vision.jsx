@@ -15,7 +15,7 @@ export default function Vision() {
     >
       <div className="md:py-10 md:p-10 p-2">
         <h2 className="mx-2">Our Mission</h2>
-        <p className="p-2">
+        <p className="">
           At Elytse, our mission is to revolutionize the fashion industry by
           providing a sustainable, innovative and socially-conscious marketplace
           that connect fashion products and service providers and consumers. We
@@ -24,7 +24,7 @@ export default function Vision() {
           fashion practices
         </p>
       </div>
-      <div className="w-27 bg-[#f9d108] py-12 p-2">
+      <div className="w-27 bg-[#f9d108] py-12 p-8">
         <h2>Our Vision</h2>
         <p className="p-2">
           Our Vision at Elytse is to be the leading fashion place in Africa,
