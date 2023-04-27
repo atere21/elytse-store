@@ -31,7 +31,7 @@ const Hero = () => {
 
           <div className="md:flex grid  bg-white md:py-8 mx-2 p-2 gap-2">
           <button className="p-4 hover:bg-blue-400  bg-blue-800 rounded-md text-white ">
-           Sign Up
+           Sign Up 
            </button>
 
            <button className="p-4 hover:bg-yellow-300 bg-yellow-400 text-white rounded-md">
