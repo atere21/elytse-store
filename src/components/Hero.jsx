@@ -26,20 +26,6 @@ const Hero = () => {
           
           
           <p className="text-[#004DE6] md:text-xl p-2">
-<<<<<<< HEAD
-          Looking for a revolutionary fashion shopping experience? Look no further than Elytse! Our cutting-edge technology provides a platform where fashion vendors and users can connect and experience the beauty of shopping online. Be it Clothing, Beauty, or Appearance, Elytse offers a diverse community and innovative solutions to all your shopping woes. Say goodbye to Returns, Frustrations, Disappointments, and Overpricing, and say hello to a world of adventure and possibilities! Join the community, start your Elytse journey today!
-             </p>
-
-          <div className="md:flex grid  bg-white md:py-8 mx-2 p-2 gap-2">
-          <button className="p-4 hover:bg-blue-400  bg-blue-800 rounded-md text-white ">
-           Sign Up
-           </button>
-
-           <button className="p-4 hover:bg-yellow-300 bg-yellow-400 text-white rounded-md">
-           Sign In
-           </button>
-           
-=======
           Looking for a revolutionary fashion shopping experience? Look no further than Elytse!
 	 Our cutting-edge technology provides a platform where fashion vendors and users can connect
 	 and experience the beauty of shopping online. Be it Clothing, Beauty, or Appearance, 
@@ -56,7 +42,6 @@ const Hero = () => {
             <button className="text-[#004DE6] w-[200px] hover:bg-[#f9d108] rounded-md font-medium md:mx-5 mx-10  my-6 py-3 ml-6 px-6 bg-[#e7c624]">
               Join the Community
             </button>
->>>>>>> 585b11ef964c8b0ae78d20c757fa67bb3dd6d287
           </div>
         </div>
 
