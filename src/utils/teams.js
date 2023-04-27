@@ -8,13 +8,13 @@ import Armstrong from "../assets/Armstrong.JPG";
 export const teams = [
 	{
 		title: "Motun Marteen ",
-		position:"Founder, Product Manager",
+		position:"Founder, CEO",
 		 icon: Motun,
         
 	},
 	{
 		title: "Oluwatosin Atere",
-		position: " Co-Founder, Frontend Engineer",
+		position: " Co-Founder, COO",
 		icon:  Tosin,
 	},
 	{

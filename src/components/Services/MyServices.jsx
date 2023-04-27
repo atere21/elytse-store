@@ -24,7 +24,6 @@ const MyServices = () => {
 			<h3
 				data-aos='fade-down'
 				className='sm:w-[300px] w-full text-[2rem] md:text-[2.3rem] text-yellow-600 font-bold sm:border-b-4 border-b-0  border-blue-900 pb-[0.5rem] sm:ml-[4rem] ml-1  sm:text-left text-center m-auto p-4'>
-				Swipe To See Our Solutions
 			</h3>
 			<ServiceCardContainer />
 		</div>
