@@ -20,7 +20,7 @@ export default function Ambassador(){
                     <p >With gamified features to delight And algorithms that ensure what's right,Elytse elevates the shopping gameAnd gives users a platform to proclaim.
                     </p>
                     <p >Guys take note of this innovative place,Where fashion meets social space,Elytse is the future of online shopping,A marketplace where trends keep poppin</p>
-                    <span className="text-end  text-[12px]">Motun Marteen, CEO Elytse</span>
+                    <span className="text-end  text-[12px]">Motun Marteen, CEO</span>
                 </div>
             </div>
             <div className=" text-white mx-8">

@@ -11,13 +11,13 @@ import Frank from "../assets/Frank.jpeg";
 export const teams = [
 	{
 		title: "Motun Marteen ",
-		position:"Founder & Product Manager",
+		position:"Founder, Product Manager",
 		 icon: Motun,
         
 	},
 	{
 		title: "Oluwatosin Atere",
-		position: "COO & Frontend Engineer",
+		position: " Co-Founder, Frontend Engineer",
 		icon:  Tosin,
 	},
 
