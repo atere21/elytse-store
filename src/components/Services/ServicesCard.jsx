@@ -9,9 +9,9 @@ const ServicesCard = ({ card }) => {
 	}, []);
 	return (
 		<div className='text-blue-600 mx-auto w-[100vw]  flex  flex-col  bg-white  items-center md:py-2 p-8 md:p-16 mb-[-4rem]'>
-			<p className='sm:hidden block  text-[#91b3fa] font-bold pb-1 pt-1 mb-2 border-b-4 sm:border-b-0 text-center w-[150px] border-blue-900 m-auto text-xl'>
+			{/* <p className='sm:hidden block   text-center w-[150px] border-blue-900 m-auto text-xl'>
 				{card.title}
-			</p>
+			</p> */}
 
 			<div className='flex flex-col sm:flex-row-reverse  w-[100%] sm:bg-white '>
 				<div data-aos='zoom-in' className='w-full'>
