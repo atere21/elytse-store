@@ -75,7 +75,7 @@ const ServiceCardContainer = () => {
 					<img
 						src={arrowright}
 						onClick={() => slideFront(swiperRef.activeIndex)}
-						className=' z-40 mt-[-4rem] md:mt-[-14rem]'
+						className=' z-40 mt-[-4rem] md:mt-[-14rem] '
 						width={45}
 						height={45}
 						alt='arrowright'
