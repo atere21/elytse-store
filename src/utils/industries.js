@@ -12,67 +12,71 @@ import Satisfaction from "../assets/page12.png";
 export const industry = [
 	{
 		title: "Sell, Rent, & Swap",
-		body: " Elytse's social fashion marketplace is designed to also enable fashion-conscious individuals to buy and sell pre-owned clothing, accessories, shoes, or other fashion items, as well as swap items with other users. This concept of swap or sell sustainability allows users to participate in a circular economy, reducing waste an promoting sustainable fashion practices. The platform connects users with one another and with a community of fashion enthusiasts who share a passion for eco-conscious living and fashion.",
+		body: " Elytse's Sell, Swap, and Rent feature is a great way to save money on fashion. You can sell your gently used pre-owned fashion items to other users, swap them for items you like better, or rent them for a short period of time. This is a great way to get new fashion items without spending a lot of money.",
 		img: sell,
-		button:"Get Started",
+		button:"Start Earning",
+	},
+
+	
+	{
+		title: "Community Driven Marketplace",
+		body: "Elytse's Community-Driven Space is a platform where you can connect with each other, share fashion tips, and get inspired by the latest trends. It's a great way to learn more about fashion and meet other people who share your passion.",
+		img: community,
+		button:"Connect",
 	},
 
 	{
-		title: "Virtual Fitting Assistant",
-		body: "The Virtual Fitting Assistant feature provides users with a convenient and efficient way of shopping for clothes and other fashion items, as they can try on various items without having to visit a physical store. Additionally, the feature reduces the need for returns, as users can see how an item would look on them before purchasing it.",
+		title: "Virtual Try-On",
+		body: "Elytse's Virtual Try-On is a virtual dressing room that allows you to try on clothes from the comfort of your own home. You can see exactly how a piece of clothing will look on you before you buy it. This is a great way to avoid buying clothes that don't fit or look good on you, and it can save you a lot of time and money.",
 		img: virtual,
 		button:"Request Demo",
 	},
 	{
-		title: "Community Driven Marketplace",
-		body: "Join the conversation As a social fashion marketplace, Elytse offers a platform for users to share, learn, and interact with a community of fashion enthusiasts. In addition to buying and selling fashion items, users can market their services and products, and earn points for their activities on the platform, which can be redeemed for discounts on future purchases. Whether you're looking to discover new styles or build your personal brand, Elytse provides an engaging space to connect and grow within the fashion community.",
-		img: community,
-		button:"Connect",
-	},
-	{
-		title: "3D Body Measuring Technology",
-		body: "Experience personalized and sustainable shopping with Elytse's 3D body measuring technology. No more in-person tailor measurements. Our technology captures accurate body measurements with your smartphone camera, creating a seamless shopping experience. Say goodbye to ill-fitting clothes and textile waste, and join us in reducing the environmental impact of the fashion industry",
+		title: " Virtual Body Measurement",
+		body: "Elytse's Virtual Body Measurement is a revolutionary new way to take your body measurements. Simply hold your phone up and turn around, and it will take accurate measurements of your entire body in seconds. You can then save and share your measurements with anyone on the platform.",
 		img: threeD,
-		button:"Request Demo",
+		button:"Try It",
 	},
+
+	
 	{
 		title: "Imagine Creative Studio",
-		body: "Elytse incorporates Imagine Studio NFT technology, which allows fashion designers to showcase their designs as unique digital assets. Users can purchase these NFTs and own a piece of the designer's collection. This concept promotes the idea of sustainable fashion by reducing waste and allowing for the ownership of unique, one-of-a-kind pieces.",
+		body: "Elytse's Imagine Creative Studio is a creative platform that allows fashion designers and users with creative fashion ideas to create and sell NFTs of their designs. This will give users a new way to monetize their work and make it easier for people to buy and collect digital fashion.",
 		img: Imagine,
 		button:"Earn Royalties",
 	},
 	{
 		title: "Real Time Monitoring",
-		body: " Real-time monitoring on Elytse's app allows users to track the progress of their clothing, footwear, jewelry, and other services' production with the click of a button. Users can also track in real-time the location of delivery personnel for a more efficient delivery process. This feature enhances transparency and communication between the user and the service or product providers, improving the overall customer experience",
+		body: "Elytse's Real-Time monitoring feature for service providers gives users peace of mind. With the push of a button, you can see how far your service provider has gone with producing your order and how much time is left. This transparency helps to build trust and satisfaction.",
 		img: Real,
-		button:"Try For Free",
+		button:"Join Now!",
 	},
 
 	{
 		title: "Personalized AI Fashion Recommender",
-		body: "Looking to take your fashion game to the next level? Say goodbye to the stress of endless scrolling and let Elytse AI Fashion Recommender do the work for you! Our cutting-edge technology analyzes your interest to suggest personalized fashion items tailored to your style, size, and favorite brands. Experience the thrill of discovering your perfect outfit, every time you shop.",
+		body: "Elytse's Personalized AI Fashion Recommender is a great way to help you find clothes and other fashion items that you will love. By using AI, the recommender will take into account your individual style, body type, and preferences to generate recommendations that are tailored to your specific needs.",
 		img: AI,
-		button:"Get Started",
+		button:"Get Recommender",
 	},
 	{
 		title: "Virtual Wardrobe Assistant",
-		body: "Elytse's Virtual Wardrobe Assistant is the AI-powered solution you've been searching for. You have just gotten the ability to upload pictures of your clothes and other fashion items and receive personalized outfit suggestions, managing your wardrobe has never been easier. Plus, with recommendations for new items to purchase that compliment your current wardrobe, you'll always be ahead of the fashion game. ",
+		body: "Elytse's Virtual Wardrobe Assistant takes into account the time, weather, occasion, and most importantly items in your wardrobe to generate outfit suggestions that are both stylish and appropriate for the occasion. It can even suggest a great pair to buy that can match the pair you have in your wardrobe. Look your best while you save time and money!",
 		img: Real,
 		button:"Request Demo",
 	},
-
 	
+
 	{
-		title: "Motivation & Recognition program",
-		body: "Elytse introduces features such as points systems, loyalty programs, referral incentives, quizzes, scavenger hunts, and leaderboards. These features allow users to engage with the platform in a fun and interactive way. Users can earn badges, rewards such as discounts, and exclusive access to fashion items by participating in various activities on the platform. ",
-		img: Motivation,
-		button:"Earn Rewards",
+		title: "Customer Experience Verification",
+		body: "Elytse's Customer Experience Verification is an important part of ensuring that you have a positive experience with Elytse. By verifying service and product providers based on their positive reviews and sales, we will help to ensure that users are only interacting with reputable businesses.",
+		img: Satisfaction,
+		button:" Get Verified",
 	},
 
 	{
-		title: "Satisfaction & Experience Algorithm",
-		body: "Our advanced algorithms use user feedback to generate verification and scores for service and product providers on our platform. These ratings help users make informed decisions by showcasing the quality of providers' products and services. With this system, we incentivize providers to offer better quality products and services and continuously improve the user experience. ",
-		img: Satisfaction,
-		button:"Join Community",
+		title: "Motivation & Recognition program",
+		body: "At Elytse, we believe that our motivation and recognition programs are a valuable tool that can help to improve user engagement, satisfaction, and loyalty. We are committed to providing a positive and engaging experience for all users, and we believe that our motivation and recognition programs are a key part of achieving that goal. ",
+		img: Motivation,
+		button:"Join Us Now!",
 	},
 ];

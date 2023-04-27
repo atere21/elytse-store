@@ -16,7 +16,7 @@ const TeamCard = ({ card }) => {
           <p className="text-center text-yellow-600 font-bold z-40 w-40">
             {card.title}
           </p>
-          <p className="items-center justify-center flex text-[0.95rem] p-8 w-60 ml-[-6.3rem]">
+          <p className="items-center justify-center flex text-[0.95rem] p-4 w-60 ml-[-6.9rem] mt-4">
            {card.position}
           </p>
           <span>
