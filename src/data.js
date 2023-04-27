@@ -28,8 +28,9 @@ export const data= [
       answer: "Elytse offers a lot of unique experience that combine social-networking with online shopping. Users can connect with like-minded fashion ethusiasts, discover new independent brands and designers, even make money through sell and swap feature, earn rewards and discounts theough gamification features",
   
     },
+    
     {
-      question: "How can i contact Elytse customer service",
+      question: "How can I contact Elytse customer service",
       answer: "You can contact Elytse customer support through our website or mobile app. We have a dedicated team of customer support representatives that are available to assist you with any questions or concerns",
   
     },

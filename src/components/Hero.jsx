@@ -1,8 +1,9 @@
 import React from "react";
-import img from "../assets/hero.png";
+import backgroundImage from "../assets/hero.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Typed from "react-typed";
 
 const Hero = () => {
   useEffect(() => {
@@ -13,42 +14,65 @@ const Hero = () => {
     <div
       name="Home"
       data-aos="fade-right"
-      className="w-full h-full md:h-screen md:m-8 py-10 px-4"
+      className="w-full h-full md:h-screen md:m-8 py-10 px-4 bg-cover bg-center md:mt-[2rem]"
     >
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div>
-          <h1 className="md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 w-[50%]">
-            "Social Fashion Marketplace"
-          </h1>
+          <Typed
+            className='className="md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 w-[50%]'
+            strings={[
+              "Social Fashion Marketplace",
+              "Sell/Swap/Rent Pre-owned Items",
+              "Community Driven Space",
+              "Dynamic & Competitive Pricing",
+              "Virtual Fitting Assistant",
+              "Virtual Body Measurement",
+              "Imagine Creative Studio",
+              "Services Real-Time Monitoring",
+              "Personalized AI Fashion Recommender",
+              "Virtual Wardrobe Assistant",
+              "Customer Experience Verification",
+              "Last-Mile Order Fulfilment",
+            ]}
+            typeSpeed={150}
+            backSpeed={30}
+            loop
+          />
+
           <p className="text-[#004DE6] md:text-xl p-2">
-            Join the fashion revolution and step into a world without limits. We
-            are a dynamic social marketplace where innovation meets community,
-            and shopping is an adventure. <br />
-            Our cutting-edge technology brings your fashion dreams to life,
-            while our diverse community empowers you to express your unique
-            style. Discover a whole new way to experience fashion.
+            Looking for a revolutionary fashion shopping experience? Look no
+            further than Elytse! Our cutting-edge technology provides a platform
+            where fashion vendors and users can connect and experience the
+            beauty of shopping online. Be it Clothing, Beauty, or Appearance,
+            Elytse offers a diverse community and innovative solutions to all
+            your shopping woes. Say goodbye to Returns, Frustrations,
+            Disappointments, and Overpricing, and say hello to a world of
+            adventure and possibilities! Join the community, start your Elytse
+            journey today!
           </p>
 
-          <div className="md:flex grid  bg-white md:py-8">
-            <input
-              className="bg-white  border-none  rounded-md text-blue-800 font-medium md:mx-0 mx-auto my-6 py-3 p-3 w-full "
-              type="email"
-              placeholder="Enter your best email"
-            />
-            <button className="text-[#004DE6] w-[200px] hover:bg-[#f9d108] rounded-md font-medium md:mx-5 mx-10  my-6 py-3 ml-6 px-6 bg-[#e7c624]">
-              Submit
+            <button className="rounded-md text-white bg-blue-700 hover:bg-blue-500">
+              Sign In
+            </button>
+
+            <button className="rounded-md text-white bg-yellow-500 hover:bg-blue-400">
+              Sign up
             </button>
           </div>
         </div>
 
-        <div className="flex flex-col justify-center">
-          <img
+        <div
+          className="flex flex-col justify-center  bg-cover bg-center h-screen md:mt-[-12rem]"
+          data-aos="zoom-in"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
+          {/* <img
             data-aos="zoom-in"
             className="w-full h-full mx-auto my-4"
             src={img}
             alt="/"
-          />
-        </div>
+          /> */}
+        
       </div>
     </div>
   );
