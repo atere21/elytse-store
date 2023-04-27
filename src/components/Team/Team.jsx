@@ -15,7 +15,7 @@ const TeamFile = () => {
 			<div data-aos='fade-right'
             className='justify-center items-center flex py-8 flex-col'>
                  
-                <h2 className='font-bold text-4xl md:text-6xl text-blue-700 font-abc'>About the Team</h2>
+                <h2 className='font-bold text-4xl md:text-6xl text-blue-700 font-abc'>Meet the Team</h2>
 				<div className='flex flex-col sm:flex-row gap-[3rem] flex-wrap justify-center mt-[5rem] px-[1rem] '>
 					{teams.map((card, id) => {
 						return <TeamCard card={card} key={id} />;

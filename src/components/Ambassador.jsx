@@ -14,7 +14,7 @@ export default function Ambassador(){
                 <div className="bg-[#f9d108] py-2 mb-2 p-2 text-center">
                     <p>"Discovering the future of fashion: An ode to Elytse"</p>
                 </div>
-                <div className="bg-[#f9d108] text-[13px] text-center  py-3">
+                <div className="bg-[#f9d108] text-[13px] text-center  py-3 p-4">
                     <p >Elytse, where fashion meets social grace, A marketplace for stylish tastes,Where users share and shop with ease,And find new styles with expertise.</p>
                     <p >Before you toss away what's not, Consider who might want that clot.The AI at Elytse can help you see,If there's a buyer and some money to free.</p>
                     <p >With gamified features to delight And algorithms that ensure what's right,Elytse elevates the shopping gameAnd gives users a platform to proclaim.
