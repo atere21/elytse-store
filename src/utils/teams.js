@@ -17,7 +17,7 @@ export const teams = [
 	},
 	{
 		title: "Oluwatosin Atere",
-		position: " Co-Founder, Frontend Engineer",
+		position: " COO & Frontend Engineer",
 		icon:  Tosin,
 	},
 
