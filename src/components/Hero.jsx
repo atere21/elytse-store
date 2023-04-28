@@ -3,7 +3,6 @@ import backgroundImage from "../assets/hero.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Typed from 'react-typed';
 
 
 const Hero = () => {
@@ -19,12 +18,13 @@ const Hero = () => {
     >
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <div>
-        <Typed 
+        {/* <Typed 
            className='className="md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 w-[50%]'
            strings={["Social Fashion Marketplace", "Sell/Swap/Rent Pre-owned Items", "Community Driven Space", "Dynamic & Competitive Pricing", "Virtual Fitting Assistant", "Virtual Body Measurement", "Imagine Creative Studio", "Services Real-Time Monitoring", "Personalized AI Fashion Recommender", "Virtual Wardrobe Assistant", "Customer Experience Verification", "Last-Mile Order Fulfilment"]} 
            typeSpeed={150}
            backSpeed={30}
-           loop/>
+           loop/> */}
+
           
           <p className="text-[#004DE6] md:text-xl p-2">
           Looking for a revolutionary fashion shopping experience? Look no further than Elytse! Our cutting-edge technology provides a platform where fashion vendors and users can connect and experience the beauty of shopping online. Be it Clothing, Beauty, or Appearance, Elytse offers a diverse community and innovative solutions to all your shopping woes. Say goodbye to Returns, Frustrations, Disappointments, and Overpricing, and say hello to a world of adventure and possibilities! Join the community, start your Elytse journey today!
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center  bg-cover bg-center h-screen md:mt-[-12rem]"
+        <div className="flex flex-col justify-center  bg-cover bg-center sm:h-screen sm:mt-[-12rem]  h-[400px] w-full"
         data-aos="zoom-in"
         style={{ backgroundImage: `url(${backgroundImage})` }}
         

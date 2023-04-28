@@ -11,8 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-yellow-500 font-bold flex justify-between sticky top-0 bg-white/40
-      z-10 items-center h-24 max-w-[1240px] mx-auto px-4">
+    <div className="text-yellow-500 font-bold flex justify-between sticky top-0  z-10 items-center h-24 max-w-[1240px] mx-auto px-4">
       <img className="w-40 h-20" src={logo} alt="" />
       <ul className="md:flex hidden  cursor-pointer ">
         <li className="p-4 hover:text-blue-800">
