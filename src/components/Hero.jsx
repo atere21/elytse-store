@@ -24,10 +24,11 @@ const Hero = () => {
            typeSpeed={150}
            backSpeed={30}
            loop/> */}
+
            <h1 className="text-4xl font-abc md:text-6xl text-blue-800 font-bold mx-2">"Social Fashion Marketplace"</h1>
           
           <p className="text-[#004DE6] md:text-xl p-2">
-          Looking for a revolutionary fashion shopping experience? Look no further than Elytse! Our cutting-edge technology provides a platform where fashion vendors and users can connect and experience the beauty of shopping online. Be it Clothing, Beauty, or Appearance, Elytse offers a diverse community and innovative solutions to all your shopping woes. Say goodbye to Returns, Frustrations, Disappointments, and Overpricing, and say hello to a world of adventure and possibilities! Join the community, start your Elytse journey today!
+          Looking for a revolutionary fashion shopping experience? Look no further than Elytse! Our cutting-edge technology provides a platform where fashion vendors and users can connect, experience the beauty of shopping online. Be it Clothing, Beauty, or Appearance. Elytse offers a diverse community and innovative solutions to all your shopping woes. Say goodbye to Returns, Frustrations, Disappointments, and Overpricing. Say hello to a world of adventure and possibilities! Join the community, start your Elytse journey today!
              </p>
 
           <div className="md:flex grid  bg-white md:py-8 mx-2 p-2 gap-2">
@@ -45,7 +46,6 @@ const Hero = () => {
         <div className="flex flex-col justify-center  bg-cover bg-center sm:h-screen sm:mt-[-12rem]  h-[400px] w-full"
         data-aos="zoom-in"
         style={{ backgroundImage: `url(${backgroundImage})` }}
-        
   >
           
           {/* <img

@@ -8,7 +8,7 @@ export const data= [
   
     {
       question: "How does Elytse Works?",
-      answer: "Elytse offer a unique shopping experience that combines social networking with online-shopping. Users can browse and shop for fashion items, connects with like-m    inded fashion ethusiasts and even earn reward and discount through our gamification features",
+      answer: "Elytse offer a unique shopping experience that combines social networking with online-shopping. Users can browse and shop for fashion items, connects with like-minded fashion ethusiasts and even earn reward and discount through our gamification features",
   
     },
 
