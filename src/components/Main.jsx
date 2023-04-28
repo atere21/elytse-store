@@ -5,8 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Typed from 'react-typed';
 
-
-const Hero = () => {
+const Main= () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -60,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Main;
