@@ -39,7 +39,7 @@ export const teams = [
 	},
 	{
 		title: "Adeyera Asimolowo",
-		position:"Marketing Manager",
+		position:"Frontend-Engineer & Marketing Manager",
         icon:  Adeyera,
 	},
 	
