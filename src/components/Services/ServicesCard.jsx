@@ -32,7 +32,7 @@ const ServicesCard = ({ card }) => {
 					<p className='duration-150 ease-out w-full '>{card.body}</p>
 				  
 				    <button className="duration-150 ease-out  md:my-[10rem] my-[4rem]
-					text-left  rounded-md  font-semibold hover:text-blue-600 w-[10rem] 
+					text-left  rounded-md  font-semibold hover:text-blue-600 w-[10rem] hover:bg-yellow-300 w-[10rem]
 					items-center flex justify-center p-2 mx-2 
 					 bg-yellow-400 text-blue-800 ">
 						{card.button}
