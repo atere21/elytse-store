@@ -10,26 +10,26 @@ import Frank from "../assets/Frank.jpeg";
 export const teams = [
 	{
 		title: "Motun Marteen ",
-		position:"Founder, Product Manager",
+		position:"Founder/CEO",
 		 icon: Motun,
         
 	},
 	{
 		title: "Oluwatosin Atere",
-		position: " Co-Founder, Frontend Engineer",
+		position: " Co-Founder/COO",
 		icon:  Tosin,
 	
 	},
 
 	{
 		title: "Ejie Emmanuel",
-		position:"CTO & Backend-Developer",
+		position:"Co-founder/CTO",
         icon:  Ebuka,
 	},
 
 	{
 		title: "Franklin Ikeogu",
-		position:"Backend Developer",
+		position:"Software Engineer",
         icon:  Frank,
 	},
 	{
