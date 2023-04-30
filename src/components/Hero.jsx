@@ -23,7 +23,7 @@ const Hero = () => {
            typeSpeed={150} 
            backSpeed={30} loop/> */}
                                       
-           <h1 className="text-4xl font-abc md:text-6xl text-blue-900 font-bold mx-2">"Social Fashion Marketplace"</h1>
+           <h1 className="text-4xl font-abc md:text-6xl text-blue-700 font-bold mx-2">"Social Fashion Marketplace"</h1>
 					<p className='text-[#004DE6] md:text-xl p-2'>
 						Looking for a revolutionary fashion shopping experience? Look no
 						further than Elytse! Our cutting-edge technology provides a platform
