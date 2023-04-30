@@ -22,7 +22,8 @@ const Hero = () => {
            strings={["Social Fashion Marketplace", "Sell/Swap/Rent Pre-owned Items", "Community Driven Space", "Dynamic & Competitive Pricing", "Virtual Fitting Assistant", "Virtual Body Measurement", "Imagine Creative Studio", "Services Real-Time Monitoring", "Personalized AI Fashion Recommender", "Virtual Wardrobe Assistant", "Customer Experience Verification", "Last-Mile Order Fulfilment"]} 
            typeSpeed={150} 
            backSpeed={30} loop/> */}
-
+                                      
+           <h1 className="text-4xl font-abc md:text-6xl text-blue-900 font-bold mx-2">"Social Fashion Marketplace"</h1>
 					<p className='text-[#004DE6] md:text-xl p-2'>
 						Looking for a revolutionary fashion shopping experience? Look no
 						further than Elytse! Our cutting-edge technology provides a platform
