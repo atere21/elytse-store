@@ -7,7 +7,6 @@ import Armstrong from "../assets/Armstrong.JPG";
 import Ebuka from "../assets/Ebuka.jpeg";
 import Frank from "../assets/Frank.jpeg";
 
-
 export const teams = [
 	{
 		title: "Motun Marteen ",
@@ -19,6 +18,7 @@ export const teams = [
 		title: "Oluwatosin Atere",
 		position: " Co-Founder, Frontend Engineer",
 		icon:  Tosin,
+	
 	},
 
 	{
