@@ -23,7 +23,7 @@ export const teams = [
 
 	{
 		title: "Ejie Emmanuel",
-		position:"Co-founder/COO",
+		position:"Co-founder/CTO",
         icon:  Ebuka,
 	},
 
