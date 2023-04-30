@@ -16,11 +16,7 @@ const Hero = () => {
 			className='w-full h-full md:h-screen md:m-8 py-10 px-4 bg-cover bg-center md:mt-[2rem]'>
 			<div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
 				<div>
-// 				 <Typed 
-//            className='className="md:text-6xl font-abc sm:text-6xl text-4xl font-bold py-2 text-[#004DE6] p-2 w-[50%]'
-//            strings={["Social Fashion Marketplace", "Sell/Swap/Rent Pre-owned Items", "Community Driven Space", "Dynamic & Competitive Pricing", "Virtual Fitting Assistant", "Virtual Body Measurement", "Imagine Creative Studio", "Services Real-Time Monitoring", "Personalized AI Fashion Recommender", "Virtual Wardrobe Assistant", "Customer Experience Verification", "Last-Mile Order Fulfilment"]} 
-//            typeSpeed={150} 
-//            backSpeed={30} loop/> 
+
                                       
            <h1 className="text-4xl font-abc md:text-6xl text-blue-700 font-bold mx-2">"Social Fashion Marketplace"</h1>
 					<p className='text-[#004DE6] md:text-xl p-2'>
