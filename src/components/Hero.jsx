@@ -48,7 +48,7 @@ const Hero = () => {
 				</div>
 
 				<div
-					className='flex flex-col justify-center  bg-cover bg-center h-screen md:mt-[-12rem]'
+					className='flex flex-col justify-center  bg-cover bg-center sm:h-screen sm:mt-[-12rem]  h-[300px] w-full'
 					data-aos='zoom-in'
 					style={{ backgroundImage: `url(${backgroundImage})` }}>
 					{/* <img
