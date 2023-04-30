@@ -8,7 +8,7 @@ const Youtube = () => {
 			<Container>
 				<div className='ratio ratio-16x9'>
 					<iframe
-						src='https://www.youtube.com/embed/EhHjXzu98JA'
+						src='https://www.youtube.com/embed/4qK6Rsni0Tc'
 						title='YouTube video'
 						allowfullscreen></iframe>
 				</div>
